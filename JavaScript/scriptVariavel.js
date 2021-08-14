@@ -1,4 +1,4 @@
-var nome = "Fabiano";
+//var nome = "Fabiano";
 
 var idade = 43;
 var idade2 = "43";
@@ -31,3 +31,13 @@ var numRandom = Math.round(Math.random() * 100);
 
 
 document.write(numRandom);
+
+//let nome = "Fabiano";
+
+const nome = "Fabiano";
+
+nome = "Guba";
+
+console.log(nome);
+
+
