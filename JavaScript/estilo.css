@@ -1,0 +1,24 @@
+#exemplo {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	border: 1px solid #ccc;
+}
+
+.verde {
+	background-color: #00ff00;
+	color: #fff;
+}
+
+.vermelho {
+	background-color: #ff0000;
+}
+
+.azul {
+	background-color: #0000ff;
+}
+
+.preto {
+	background-color: #000000;
+	color: #fff;
+}
