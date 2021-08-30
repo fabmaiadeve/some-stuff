@@ -25,3 +25,26 @@ function trocar () {
 		document.querySelector("#exemplo").classList.add('preto');	
 	}
 }
+
+function alterar() {
+	document.getElementById('titulo').innerHTML = 'Trocou o título!';
+	document.getElementById('exemplo').innerHTML = 'Trocou o nome!';
+}
+
+//alterar();
+
+function somar(x, y) {
+	let total = x + y;
+	document.getElementById('campo').value = total;
+} 
+
+somar(5, 10);
+
+function segundaSoma(x, y) {
+	let total = x + y;
+	return total;
+} 
+
+var resultado = segundaSoma(2, 2);
+
+console.log(resultado);
